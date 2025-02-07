@@ -67,7 +67,7 @@ The CLI is used through the `predict_mental_health.py` script as shown in the pr
 
 Eg:
 
-![ClI](/workspace/mentalhealthtool/cli.png)
+![ClI](cli.png)
 ### b. User Interface (UI)
 
 The UI provides a more interactive way to use the tool through a web browser.
@@ -106,7 +106,7 @@ The UI provides a more interactive way to use the tool through a web browser.
 
 Eg:
 
-![UI](/workspace/mentalhealthtool/ui.png)
+![UI](ui.png)
 
 ## 6. Dependencies
 
