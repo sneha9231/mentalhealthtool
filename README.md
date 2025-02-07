@@ -65,7 +65,9 @@ This project has two ways to interact with it: a command-line interface (CLI) us
 
 The CLI is used through the `predict_mental_health.py` script as shown in the previous section ("How to Run the Inference Script").
 
+Eg:
 
+![ClI](/workspace/mentalhealthtool/cli.png)
 ### b. User Interface (UI)
 
 The UI provides a more interactive way to use the tool through a web browser.
@@ -93,7 +95,7 @@ The UI provides a more interactive way to use the tool through a web browser.
     ```
 3.  **Run the main Python script:**
     ```
-    python your_main_script.py # (the script with the Gradio interface)
+    python your_main_script.py 
     ```
     This will launch a Gradio interface in your web browser.
 
@@ -101,6 +103,10 @@ The UI provides a more interactive way to use the tool through a web browser.
     *   Enter your statement in the text box.
     *   Click the "Submit" button.
     *   The chatbot response, including the predicted mental health status and suggestions, will be displayed.
+
+Eg:
+
+![UI](/workspace/mentalhealthtool/ui.png)
 
 ## 6. Dependencies
 
@@ -122,6 +128,4 @@ You can install these dependencies using pip:
 
 *   Replace `"path/to/your/model.pkl"` with the actual path to your saved model file.
 *   The Gradio interface requires a Groq API key, which should be set as an environment variable.
-*   This documentation assumes you have a basic understanding of Python, Git, and command-line operations.
-
 
